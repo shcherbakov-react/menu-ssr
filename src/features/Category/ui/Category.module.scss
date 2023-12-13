@@ -1,0 +1,30 @@
+.category {
+    width: 100%;
+    height: var(--navbar-height);
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    margin-bottom: 32px;
+}
+
+.links {
+    display: flex;
+
+    &>*:not(:last-child) {
+        margin-right: 12px;
+    }
+
+    .Button {
+        border-radius: var(--radius-base);
+        padding: 5px 11px;
+        background: var(--secondary-bg);
+        color: var(--secondary-color);
+        transition: color .2s, background-color .2s;
+        width: max-content;
+
+        &.active {
+            background: var(--active-bg);
+            color: var(--active-color);
+        }
+    }
+}

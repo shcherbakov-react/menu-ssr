@@ -1,0 +1,49 @@
+.MenuListCategory {
+    margin-bottom: 32px;
+}
+
+.title {
+    margin-bottom: 24px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.itemImg {
+    max-width: 115px;
+    max-height: 115px;
+    object-fit: cover;
+}
+
+.itemTitle {
+    margin-bottom: 12px;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.itemAction {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.itemComposition {
+    font-size: 14px;
+    color: var(--secondary-color);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    margin-bottom: 28px;
+}
+
+.itemPrice {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+}
