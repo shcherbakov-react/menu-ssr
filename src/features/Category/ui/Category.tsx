@@ -2,6 +2,7 @@ import React, { MouseEvent, MouseEventHandler, useContext, useState } from "reac
 import classNames from "classnames";
 import { Button, ThemeButton } from "@/shared/ui/Button/Button";
 import styles from './Category.module.scss'
+import { Card } from "@/features/Card/ui/Card";
 
 interface CategoryProps {
     className?: string;
@@ -39,7 +40,6 @@ export const Category = (props: CategoryProps) => {
     const {
         className,
     } = props;
-
 
     return (
         <div className={classNames(styles.category, {}, [className])}>

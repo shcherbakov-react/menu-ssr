@@ -13,8 +13,8 @@ export const Navbar = ({ className }: NavbarProps) => {
 
     return (
         <div className={classNames(s.navbar, {}, [className])}>
-            <Image src={Logo}/>
-            <Image src={Cart}/>
+            <Image alt="logo" src={Logo}/>
+            <Image alt="Корзина" src={Cart}/>
         </div>
     )
 }
