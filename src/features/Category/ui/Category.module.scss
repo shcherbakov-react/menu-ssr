@@ -1,10 +1,12 @@
 .category {
     width: 100%;
-    height: var(--navbar-height);
     display: flex;
     align-items: center;
     overflow-x: auto;
     margin-bottom: 32px;
+    &::-webkit-scrollbar {
+        height: 0;
+    }
 }
 
 .links {
@@ -16,7 +18,8 @@
 
     .Button {
         border-radius: var(--radius-base);
-        padding: 5px 11px;
+        padding: 8px 16px;
+        font-size: 12px;
         background: var(--secondary-bg);
         color: var(--secondary-color);
         transition: color .2s, background-color .2s;
