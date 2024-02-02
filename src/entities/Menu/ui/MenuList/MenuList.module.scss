@@ -7,6 +7,7 @@
 }
 
 .item {
+    display: grid;
     gap: 8px;
 }
 
@@ -68,5 +69,5 @@
 .menu {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
+    gap: 10px;
 }
